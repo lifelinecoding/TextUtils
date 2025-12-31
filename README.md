@@ -40,6 +40,8 @@ src/
 │ ├── Navbar.jsx
 │ ├── TextForm.jsx
 │ ├── Alert.jsx
+| ├── Layout.jsx
+| ├── About.jsx
 │
 ├── App.jsx
 ├── index.js
