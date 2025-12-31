@@ -1,70 +1,181 @@
-# Getting Started with Create React App
+# ✨ TextUtils
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**TextUtils** is a simple yet powerful **text utility web application** built using **React**.  
+It helps users perform quick text transformations, analyze text statistics, and improve readability — all in a clean and user-friendly interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔠 Convert text to **UPPERCASE**
+- 🔡 Convert text to **lowercase**
+- ❌ Remove extra spaces
+- 📋 Copy text to clipboard
+- 🧹 Clear text instantly
+- 📊 Text analysis:
+  - Word count
+  - Character count
+  - Reading time estimation
+- 🌗 Dark / Light mode support
+- ⚡ Instant text processing
+- 📱 Fully responsive UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend:** React
+- **Styling:** Bootstrap 5 + Custom CSS
+- **State Management:** React `useState`
+- **Routing:** React Router (optional)
+- **Deployment Ready:** Yes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/
+│
+├── Components/
+│ ├── Navbar.jsx
+│ ├── TextForm.jsx
+│ ├── Alert.jsx
+│
+├── App.jsx
+├── index.js
+└── App.css
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ✅ Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Make sure you have the following installed:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Node.js** (v14 or above)
+- **npm** or **yarn**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Check installation:
 
-## Learn More
+```bash
+node -v
+npm -v
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+⚙️ Installation & Setup
 
-### Code Splitting
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/textutils.git
+cd textutils
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+2️⃣ Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm install
 
-### Making a Progressive Web App
+or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+yarn install
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3️⃣ Start the Development Server
 
-### Deployment
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+or
 
-### `npm run build` fails to minify
+yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+The app will run at:
+
+http://localhost:3000
+
+---
+
+🧭 How to Use
+
+Enter or paste text into the input box
+
+Choose an action:
+
+Convert case
+
+Remove spaces
+
+Copy text
+
+Clear text
+
+View real-time:
+
+Word count
+
+Character count
+
+Estimated reading time
+
+Toggle Dark Mode for better readability
+
+---
+
+🧠 Concepts Learned & Implemented
+
+React Components
+
+Props and State
+
+Event handling in React
+
+Conditional rendering
+
+Controlled components
+
+Dark mode implementation
+
+Clean UI/UX practices
+
+---
+
+👨‍💻 Developer Information
+
+Aditya Patel
+💻 Frontend Developer | React Learner
+🚀 Passionate about building beginner-friendly web applications
+
+🔗 LinkedIn: https://www.linkedin.com/in/aditya-patel-6ab7002a1/
+
+---
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repository
+
+Create a new branch
+
+Make your changes
+
+Submit a pull request
+
+---
+
+📜 License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute it.
+
+---
+
+🙌 Final Note
+
+TextUtils is a beginner-friendly React project designed to strengthen core React concepts while building a useful real-world application.
+
+Happy Coding! 🚀✨
+
+---
