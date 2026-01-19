@@ -34,6 +34,7 @@ It helps users perform quick text transformations, analyze text statistics, and 
 
 ## 📂 Project Structure
 
+```
 src/
 │
 ├── Components/
@@ -46,8 +47,7 @@ src/
 ├── App.jsx
 ├── index.js
 └── App.css
-
-
+```
 
 ---
 
@@ -63,87 +63,80 @@ Check installation:
 ```bash
 node -v
 npm -v
+```
 
 ---
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
+
+```
 git clone https://github.com/your-username/textutils.git
 cd textutils
+```
 
 ---
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
+```
 npm install
+```
 
 or
 
+```
 yarn install
+```
 
 ---
 
-3️⃣ Start the Development Server
+### 3️⃣ Start the Development Server
 
+```
 npm start
+```
 
 or
 
+```
 yarn start
+```
 
-
-The app will run at:
-
-http://localhost:3000
+The app will run at: http://localhost:3000
 
 ---
 
-🧭 How to Use
+## 🧭 How to Use
 
-Enter or paste text into the input box
-
-Choose an action:
-
-Convert case
-
-Remove spaces
-
-Copy text
-
-Clear text
-
-View real-time:
-
-Word count
-
-Character count
-
-Estimated reading time
-
-Toggle Dark Mode for better readability
+- Enter or paste text into the input box
+- Choose an action:
+- Convert case
+- Remove spaces
+- Copy text
+- Clear text
+- View real-time:
+- Word count
+- Character count
+- Estimated reading time
+- Toggle Dark Mode for better readability
 
 ---
 
-🧠 Concepts Learned & Implemented
+## 🧠 Concepts Learned & Implemented
 
-React Components
-
-Props and State
-
-Event handling in React
-
-Conditional rendering
-
-Controlled components
-
-Dark mode implementation
-
-Clean UI/UX practices
+- React Components
+- Props and State
+- Event handling in React
+- Conditional rendering
+- Controlled components
+- Dark mode implementation
+- Clean UI/UX practices
 
 ---
 
-👨‍💻 Developer Information
+## 👨‍💻 Developer Information
 
 Aditya Patel
 💻 Frontend Developer | React Learner
@@ -153,28 +146,24 @@ Aditya Patel
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 
-Contributions are welcome!
-
-Fork the repository
-
-Create a new branch
-
-Make your changes
-
-Submit a pull request
+- Contributions are welcome!
+- Fork the repository
+- Create a new branch
+- Make your changes
+- Submit a pull request
 
 ---
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it.
 
 ---
 
-🙌 Final Note
+## 🙌 Final Note
 
 TextUtils is a beginner-friendly React project designed to strengthen core React concepts while building a useful real-world application.
 
